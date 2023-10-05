@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* NAV SECTION */
+nav, .nav-links {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 15px 15px;
+}
+
+h1 {
+    color: #351c01;
+    letter-spacing: .15rem;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+a {
+    color: #572f04;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: .1rem;
+}
+
+a:hover {
+    color: #7a736b;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #7a736b;
+
+}
+
+
+
+/* FIRST SECTION */
+.first-section {
+    /* border: #572f04 2px solid; */
+    width: 90vw;
+    margin: 30px auto 30px auto;
+}
+
+
+
+
+
+
+/* TABLE SECTION */
+
+.table-header {
+    text-align: center;
+    color: #572f04;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+table {
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+table, th, td{
+    text-align: center;
+    border: #572f04 2px solid;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
