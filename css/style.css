@@ -49,7 +49,7 @@ a:hover {
 
 
 /* FIRST SECTION */
-.first-section {
+#first-section {
     /* border: #572f04 2px solid; */
     width: 90vw;
     margin: 30px auto 30px auto;
@@ -82,3 +82,29 @@ table, th, td{
 
 }
 
+
+/* FOOTER */
+
+footer {
+    background-color: antiquewhite;
+    padding: 15px 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+/* CITY IMAGES */
+.images-container, .images-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 20px 10px;
+}
+
+.images-container img {
+    width: 500px;
+}
+
+.images-container {
+    margin-top: 2rem;
+}
